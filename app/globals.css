@@ -9,8 +9,16 @@
   --green: #1DC37E;
   --green-light: #C8F8E4;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   color: var(--black);
   background-color: var(--white);
+}
+a {
+  outline: none;
+  text-decoration: none;
 }

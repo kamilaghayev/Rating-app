@@ -6,4 +6,5 @@ export interface ButtonProps extends ButtonHTMLProps {
 	children: ReactNode;
 	className?: string;
 	appearance?: "primary" | "ghost";
+	arrow?: 'right' | 'down' | 'none';
 }

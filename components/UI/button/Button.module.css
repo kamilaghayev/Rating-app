@@ -7,6 +7,7 @@
 	border: none;
 	font-size: 14px;
 	transition: .25s;
+	vertical-align: middle;
 }
 
 .primary {
@@ -28,4 +29,27 @@
 .ghost:hover {
 	color: var(--white);
 	background-color: var(--primary);
+}
+
+.arrow {
+	width: 14px;
+	vertical-align: middle;
+	transition: .25s;
+}
+.arrow.down {
+	transform: rotate(90deg);
+}
+
+.primary .arrow {
+	stroke: var(--white);
+}
+.primary:hover .arrow {
+	stroke: var(--white);
+}
+
+.ghost .arrow {
+	stroke: var(--black);
+}
+.ghost:hover .arrow {
+	stroke: var(--white);
 }

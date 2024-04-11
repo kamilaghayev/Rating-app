@@ -1,4 +1,5 @@
-import Htag from "./htag/Htag"
+import H from './h/H'
+import P from './p/P'
+import Tag from './tag/Tag'
 import Button from "./button/Button"
-
-export { Htag, Button }
+export { H, P, Tag, Button }

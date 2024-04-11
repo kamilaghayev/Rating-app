@@ -1,7 +1,7 @@
 import { HtagProps } from './Htag.props';
 import styles from './Htag.module.css';
 
-const Htag = ({tag, children}: HtagProps) => {
+const H = ({tag, children}: HtagProps) => {
 	switch (tag) {
 		case 'h1':
 			return <h1 className={styles.h1}>{children}</h1>;
@@ -20,4 +20,4 @@ const Htag = ({tag, children}: HtagProps) => {
 	}
 }
 
-export default Htag
+export default H
