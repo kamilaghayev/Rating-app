@@ -1,0 +1,6 @@
+.editable {
+	cursor: pointer;
+}
+.filled {
+	fill: var(--primary);
+}

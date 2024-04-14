@@ -1,5 +1,6 @@
 import { Button, H, P, Tag } from '@/components/UI';
 import styles from "./page.module.css";
+import Course from '@/components/course/Course';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <P size='lg'>body text 1355535463</P>
       <Button appearance='ghost' arrow='down'>My Button</Button>
       <Tag color='primary' href='/'>Tag textarea</Tag>
+      <Course/>
     </>
   );
 }

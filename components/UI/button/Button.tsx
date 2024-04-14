@@ -2,7 +2,7 @@ import { FC } from 'react'
 import cn from 'classnames'
 import { ButtonProps } from './Button.Props'
 import styles from './Button.module.css'
-import Arrow from '../assets/arrow.svg'
+import Arrow from '@/assets/arrow.svg'
 
 const Button: FC<ButtonProps> = ({
 	children, 
